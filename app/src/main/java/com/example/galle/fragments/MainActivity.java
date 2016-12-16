@@ -9,7 +9,6 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
 
-    Button botonLlamar;
     Intent llamarMain2Obj;
 
     @Override
@@ -18,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         llamarMain2Obj = new Intent(MainActivity.this, MainActivity2.class);
     }
-
+    //Metodo para llamar a la a MainActivity2
     public void llamarMain2 (View view){
         startActivity(llamarMain2Obj);
     }

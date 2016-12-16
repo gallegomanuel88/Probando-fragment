@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.galle.fragments.Fragment1">
+
+    <Button
+        android:id="@+id/botonCambiaActivity"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="135dp"
+        android:text="Cambia Activity"
+        />
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="Este es el primer fragment"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="135dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"/>
+
+</FrameLayout>
